@@ -1,0 +1,106 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hexasyntax.mvp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->C:\Users\kkrup\Downloads\HexaSyntax-MVP-V2\app\src\main\AndroidManifest.xml:4:5-79
+11-->C:\Users\kkrup\Downloads\HexaSyntax-MVP-V2\app\src\main\AndroidManifest.xml:4:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->C:\Users\kkrup\Downloads\HexaSyntax-MVP-V2\app\src\main\AndroidManifest.xml:5:5-81
+12-->C:\Users\kkrup\Downloads\HexaSyntax-MVP-V2\app\src\main\AndroidManifest.xml:5:22-78
+13    <uses-permission android:name="android.permission.SEND_SMS" />
+13-->C:\Users\kkrup\Downloads\HexaSyntax-MVP-V2\app\src\main\AndroidManifest.xml:6:5-67
+13-->C:\Users\kkrup\Downloads\HexaSyntax-MVP-V2\app\src\main\AndroidManifest.xml:6:22-64
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\kkrup\Downloads\HexaSyntax-MVP-V2\app\src\main\AndroidManifest.xml:7:5-67
+14-->C:\Users\kkrup\Downloads\HexaSyntax-MVP-V2\app\src\main\AndroidManifest.xml:7:22-64
+15
+16    <permission
+16-->[androidx.core:core:1.9.0] C:\Users\kkrup\.gradle\caches\9.0-milestone-1\transforms\48ec20e5d1aff4bc0e93f9f173acd7be\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+17        android:name="com.hexasyntax.mvp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.9.0] C:\Users\kkrup\.gradle\caches\9.0-milestone-1\transforms\48ec20e5d1aff4bc0e93f9f173acd7be\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.9.0] C:\Users\kkrup\.gradle\caches\9.0-milestone-1\transforms\48ec20e5d1aff4bc0e93f9f173acd7be\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.hexasyntax.mvp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.9.0] C:\Users\kkrup\.gradle\caches\9.0-milestone-1\transforms\48ec20e5d1aff4bc0e93f9f173acd7be\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.9.0] C:\Users\kkrup\.gradle\caches\9.0-milestone-1\transforms\48ec20e5d1aff4bc0e93f9f173acd7be\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->C:\Users\kkrup\Downloads\HexaSyntax-MVP-V2\app\src\main\AndroidManifest.xml:9:5-21:19
+23        android:allowBackup="true"
+23-->C:\Users\kkrup\Downloads\HexaSyntax-MVP-V2\app\src\main\AndroidManifest.xml:10:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.9.0] C:\Users\kkrup\.gradle\caches\9.0-milestone-1\transforms\48ec20e5d1aff4bc0e93f9f173acd7be\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:label="HexaSyntax-MVP"
+27-->C:\Users\kkrup\Downloads\HexaSyntax-MVP-V2\app\src\main\AndroidManifest.xml:11:9-39
+28        android:supportsRtl="true"
+28-->C:\Users\kkrup\Downloads\HexaSyntax-MVP-V2\app\src\main\AndroidManifest.xml:12:9-35
+29        android:testOnly="true"
+30        android:theme="@style/Theme.HexaSyntax" >
+30-->C:\Users\kkrup\Downloads\HexaSyntax-MVP-V2\app\src\main\AndroidManifest.xml:13:9-48
+31        <activity
+31-->C:\Users\kkrup\Downloads\HexaSyntax-MVP-V2\app\src\main\AndroidManifest.xml:14:9-20:20
+32            android:name="com.hexasyntax.mvp.MainActivity"
+32-->C:\Users\kkrup\Downloads\HexaSyntax-MVP-V2\app\src\main\AndroidManifest.xml:14:19-47
+33            android:exported="true" >
+33-->C:\Users\kkrup\Downloads\HexaSyntax-MVP-V2\app\src\main\AndroidManifest.xml:15:13-36
+34            <intent-filter>
+34-->C:\Users\kkrup\Downloads\HexaSyntax-MVP-V2\app\src\main\AndroidManifest.xml:16:13-19:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\kkrup\Downloads\HexaSyntax-MVP-V2\app\src\main\AndroidManifest.xml:17:17-69
+35-->C:\Users\kkrup\Downloads\HexaSyntax-MVP-V2\app\src\main\AndroidManifest.xml:17:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\kkrup\Downloads\HexaSyntax-MVP-V2\app\src\main\AndroidManifest.xml:18:17-77
+37-->C:\Users\kkrup\Downloads\HexaSyntax-MVP-V2\app\src\main\AndroidManifest.xml:18:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity
+40-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\kkrup\.gradle\caches\9.0-milestone-1\transforms\242b15f155a764714fd01c24a6239d5e\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+41            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+41-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\kkrup\.gradle\caches\9.0-milestone-1\transforms\242b15f155a764714fd01c24a6239d5e\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+42            android:exported="false"
+42-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\kkrup\.gradle\caches\9.0-milestone-1\transforms\242b15f155a764714fd01c24a6239d5e\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+43            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+43-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\kkrup\.gradle\caches\9.0-milestone-1\transforms\242b15f155a764714fd01c24a6239d5e\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+44
+45        <meta-data
+45-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\kkrup\.gradle\caches\9.0-milestone-1\transforms\856705ed8040e2557c1ccc8caae84114\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+46            android:name="com.google.android.gms.version"
+46-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\kkrup\.gradle\caches\9.0-milestone-1\transforms\856705ed8040e2557c1ccc8caae84114\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+47            android:value="@integer/google_play_services_version" />
+47-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\kkrup\.gradle\caches\9.0-milestone-1\transforms\856705ed8040e2557c1ccc8caae84114\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+48
+49        <provider
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kkrup\.gradle\caches\9.0-milestone-1\transforms\11f7c1196a0595276fdcac67fc04b6cd\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+50            android:name="androidx.startup.InitializationProvider"
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kkrup\.gradle\caches\9.0-milestone-1\transforms\11f7c1196a0595276fdcac67fc04b6cd\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+51            android:authorities="com.hexasyntax.mvp.androidx-startup"
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kkrup\.gradle\caches\9.0-milestone-1\transforms\11f7c1196a0595276fdcac67fc04b6cd\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+52            android:exported="false" >
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kkrup\.gradle\caches\9.0-milestone-1\transforms\11f7c1196a0595276fdcac67fc04b6cd\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+53            <meta-data
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kkrup\.gradle\caches\9.0-milestone-1\transforms\11f7c1196a0595276fdcac67fc04b6cd\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+54                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kkrup\.gradle\caches\9.0-milestone-1\transforms\11f7c1196a0595276fdcac67fc04b6cd\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+55                android:value="androidx.startup" />
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kkrup\.gradle\caches\9.0-milestone-1\transforms\11f7c1196a0595276fdcac67fc04b6cd\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+56            <meta-data
+56-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\kkrup\.gradle\caches\9.0-milestone-1\transforms\9926cc44b928257a27018baee7c26063\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+57                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+57-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\kkrup\.gradle\caches\9.0-milestone-1\transforms\9926cc44b928257a27018baee7c26063\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+58                android:value="androidx.startup" />
+58-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\kkrup\.gradle\caches\9.0-milestone-1\transforms\9926cc44b928257a27018baee7c26063\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+59        </provider>
+60    </application>
+61
+62</manifest>

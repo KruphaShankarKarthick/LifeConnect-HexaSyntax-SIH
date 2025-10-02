@@ -1,0 +1,11 @@
+R_DEF: Internal format may change without notice
+local
+id btnSimulate
+id etContact
+id switchDetect
+id titleText
+id tvInfo
+id tvStatus
+layout activity_main
+string app_name
+style Theme.HexaSyntax

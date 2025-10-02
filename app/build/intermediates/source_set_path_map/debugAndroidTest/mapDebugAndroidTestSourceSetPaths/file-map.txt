@@ -1,0 +1,5 @@
+com.hexasyntax.mvp.test.app-androidTest-0 C:\Users\kkrup\Downloads\HexaSyntax-MVP-V2\app\build\generated\res\resValues\androidTest\debug
+com.hexasyntax.mvp.test.app-updated_navigation_xml-1 C:\Users\kkrup\Downloads\HexaSyntax-MVP-V2\app\build\generated\updated_navigation_xml\debugAndroidTest
+com.hexasyntax.mvp.test.app-mergeDebugAndroidTestResources-2 C:\Users\kkrup\Downloads\HexaSyntax-MVP-V2\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.hexasyntax.mvp.test.app-mergeDebugAndroidTestResources-3 C:\Users\kkrup\Downloads\HexaSyntax-MVP-V2\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.hexasyntax.mvp.test.app-debugAndroidTest-4 C:\Users\kkrup\Downloads\HexaSyntax-MVP-V2\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
