@@ -45,12 +45,8 @@ App requests at runtime:
 ## License
 MIT
 
-## FIXES ADDED BY ChatGPT
-- Completed `app/build.gradle` (module) with dependencies.
-- Replaced placeholder `MainActivity.kt` with a working implementation that:
-  - Monitors accelerometer
-  - Shows a 30s cancelable confirmation
-  - Gets location via FusedLocationProvider and sends an SMS using SmsManager
-- Replaced the placeholder layout with a working `activity_main.xml`.
-
-Follow the instructions in the original README and the extra steps below to open and run in Android Studio.
+##Fixes Required in Installation of APK file
+- when you are installing the app in the mobile it doesnt allow for notification hence follow the steps below
+- Step1: Open Setting-> App-> Open the HexaSyntax_MVP
+- Step2: Click on ⋮ and select **Allow Restricted Settings**
+- Step3: Relaunch app.
